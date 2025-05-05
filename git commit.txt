@@ -1,0 +1,85 @@
+git -version
+git -v
+mkdir simple-git-demo
+cd simple-git-demo
+git init
+git branch
+cat>demo.txt
+cat demo.txt
+git status
+git add .
+git status
+git commit -m "commit 1 at master branch"
+git branch
+git status
+nano demo.txt
+cat demo.txt
+git status
+git add .
+git status
+git commit -m "commit 2 at master branch"
+git status
+git log
+cat demo.txt
+git branch
+git branch test
+git branch
+git checkout test
+git branch
+ls
+cat demo.txt
+git status
+ls
+git branch
+nano demo.txt
+git status
+git add .
+git status
+git commit -m "commit 3 at test branch"
+git branch
+git status
+nano demo.txt
+git status
+git add .
+git status
+git commit -m "commit 4 in test branch"
+git status
+git branch
+cat demo.txt
+git branch
+git checkout master
+git branch
+cat demo.txt
+nano demo.txt
+git status
+git add .
+git status
+git commit -m "commit3 in master branch"
+git branch
+git status
+nano demo.txt
+git status
+cat demo.txt
+git add .
+git status
+git commit -m "commit4 in the master branch"
+git status
+git log
+git checkout test
+cat demo.txt
+git mergemaster
+git merge master
+git checkout master
+cat demo.txt
+git status
+git add .
+git status
+git commit -m "5th commit in test branch"
+git log
+git branch
+ls
+cat demo.txt
+git checkout master
+cat demo.txt
+git merge test
+cat demo.txt
